@@ -437,6 +437,7 @@ leaflet(a) %>%
                                                   bringToFront = TRUE),
               group="Exposure 2017") %>% 
   #overlay groups
+  #can we also use the openstreetmap? https://rstudio.github.io/leaflet/basemaps.html
   addProviderTiles(providers$Esri.WorldStreetMap,
                    group="Esri") %>%  
   addProviderTiles(providers$CartoDB.Positron,
